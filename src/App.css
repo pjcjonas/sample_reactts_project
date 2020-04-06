@@ -1,0 +1,29 @@
+table {
+    padding: 5px;
+    border:none;
+    width: 100%;
+}
+
+table th, table tbody td {
+    text-align: left;
+    padding: 10px 5px;
+    vertical-align: top;
+}
+
+table tbody td {
+    font-size: 0.8em;
+}
+
+table tr td:nth-child(2){
+    max-width: 400px;
+    overflow: hidden;
+}
+
+td.align-right{
+    text-align: right;
+}
+
+div.align-content-center{
+    display: flex;
+    justify-content: center;
+}
